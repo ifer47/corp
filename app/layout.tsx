@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import { Comforter } from "next/font/google";
+import { ADLaM_Display } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/header";
 
-const cmforter = Comforter({ weight: ["400"], subsets: ["latin"] });
+const cmforter = ADLaM_Display({ weight: ["400"], subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Create Next App",
