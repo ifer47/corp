@@ -1,3 +1,5 @@
+import Hero from "@/components/hero";
+import scaleSrc from "@/public/scale.jpg";
 export default function ScalePage() {
-  return <div>ScalePage</div>;
+  return <Hero imgUrl={scaleSrc} altTxt="Scale" content="Scale~~~" />;
 }

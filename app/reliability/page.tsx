@@ -1,3 +1,5 @@
+import Hero from "@/components/hero";
+import reliabilitySrc from "@/public/reliability.jpg";
 export default function ReliabilityPage() {
-  return <div>ReliabilityPage</div>;
+  return <Hero imgUrl={reliabilitySrc} altTxt="Reliability" content="Reliability~~~" />
 }
