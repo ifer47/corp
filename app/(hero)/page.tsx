@@ -8,6 +8,6 @@ export const metadata: Metadata = {
 };
 export default function HomePage() {
   return (
-    <Hero imgUrl={homeSrc} altTxt="Home" content="Professional Cloud Hosting" />
+    <Hero imgUrl={homeSrc} altTxt="Home~" content="Professional Cloud Hosting" />
   );
 }
